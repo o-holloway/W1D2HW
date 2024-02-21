@@ -1,0 +1,125 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#logo{
+    margin: 70px;
+}
+
+body {
+    background-color: white;
+}
+
+a{
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Borrowed from real login page */
+.a-divider.a-divider-break:after{border-top:1px solid #ddd}
+.a-divider.a-divider-break,.a-color-base-background .a-divider.a-divider-break,.a-divider.a-divider-break{text-align:center;position:relative;top:2px;padding-top:1px;margin-bottom:14px;line-height:0}
+.a-divider.a-divider-break:after,.a-divider.a-divider-break:after{content:"";width:100%;background-color:transparent;display:block;height:1px;border-top:1px solid #828282;position:absolute;top:50%;margin-top:-1px;z-index:1}
+.a-divider.a-divider-break h5,.a-divider.a-divider-break h5{line-height:1;font-family: Arial, Helvetica, sans-serif; font-size:16px;color:#767676;font-weight:400;z-index:2;position:relative;display:inline-block;background-color:#fff;padding:0 8px 0 7px}
+
+a:hover{
+    color:tomato;
+}
+
+main{
+    text-align: center;
+}
+
+form{
+    border: 1px solid lightgray;   
+    width: 20%;
+    margin: 0 auto 20px;
+    padding: 20px;
+}
+
+.form-label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font: 0.9em sans-serif;
+}
+
+input{
+    padding: 5px;
+    /* border-radius: 5px; */
+    display: block;
+    width: 100%;
+}
+
+#user-field-label{
+    margin-top: 20px;
+}
+
+#user-field{
+    margin-bottom: 30px;
+}
+
+#pw-label{
+    float: left;
+}
+
+#forgot-pw{
+    float: right;
+}
+
+#pass-field{
+    margin-bottom: 20px;
+}
+
+#continue{
+    background-color: #f7c548;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font: 0.9em sans-serif;
+    margin-bottom: 20px;
+}
+
+#signin{
+    font: 2em sans-serif;
+    text-align: left;
+}
+
+#create-acct{
+    width: 20%;
+}
+
+#divider{
+    max-width: 20%;
+    margin: auto
+}
+
+#need-help{
+    text-align: left;
+    margin-top: 10px;
+    font: 0.9em sans-serif;
+    text-indent: 10px;
+}
+
+#forgot-pass{
+    text-align: right;
+}
+
+#copyright{
+    font: 0.9em sans-serif;
+}
+
+#footer-links{
+    margin: 20px;
+}
+
+footer{
+    background-color: white;
+    border-top: 3px solid gray;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    width: 100%;
+    font: 0.9em sans-serif;
+}
